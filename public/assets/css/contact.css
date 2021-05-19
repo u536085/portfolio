@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+h1{
+  text-align: center;
+  margin-top: 3%;
+  font-size: 50px;
+  color: #FAA314;
+}
+
+h2{
+  text-align: center;
+  font-size: 35px;
+  color: #141212;
+}
+h3{
+  margin-top: 4%;
+  text-align: center;
+  font-size: 35px;
+  color: #141212;
+}
+
+
+#top{
+  margin-top: 6%;
+}
+
+#mail{
+  text-decoration: none;
+  color: #FAA314;
+}
+
+#mail:hover{
+  text-decoration: underline;
+  text-decoration-color: #141212;
+}
+
+.socials{
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+#social{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-decoration: none;
+  color: #141212;
+  font-size: 110px;
+}
+
+
+
+@media (max-width: 1200px){
+  h1{
+    font-size: 30px;
+}
+h3{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+}
+h2{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+}
+
+}
+
+@media (max-width: 800px){
+  #face{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    color: #141212;
+    font-size: 70px;
+  }
+
+  #insta{
+    text-decoration: none;
+    color: #141212;
+    font-size: 70px;
+  }
+}

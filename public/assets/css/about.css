@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  margin-top: 3%;
+  font-size: 50px;
+  color: #FAA314;
+}
+
+#webdev{
+  color: #FAA314;
+}
+
+h2{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-size: 35px;
+  color: #141212;
+}
+
+
+.myInfo{
+width: 100%;
+margin-top: 2%;
+height: auto;
+text-align: center;
+}
+
+.charts{
+  margin-top: 5%;
+  width: 100%;
+}
+.staaf{
+  height: auto;
+  width: 50%;
+  float: left;
+}
+
+.circle{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+
+
+.skil{
+  margin-left: 10%;
+  width: 80%;
+}
+
+
+#certificate{
+  width: 50%;
+  margin-left: 25%;
+  height: auto;
+}
+
+@media (max-width: 800px){
+.myInfo{
+  width: 100%;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.staaf{
+  margin-top: 2%;
+  width: 100%;
+}
+
+.circle{
+  width: 100%;
+  margin-top: 2%;
+}
+#top{
+  margin-top: 2%;
+}
+
+h2{
+  font-size: 25px;
+}
+
+}
